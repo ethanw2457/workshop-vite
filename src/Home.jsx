@@ -9,7 +9,7 @@ export default function Home() {
   // Names and images for each profile 
   const profileData = [
     { name: "Sheehan Dandapat", imageSrc: "/sd2.jpg" },  // Feel free to remove demo page whenever you want
-    { name: "EthanWang", imageSrc: "/EthanWangProfile.jpg" },
+    { name: "Ethan Wang", imageSrc: "/EthanWangProfile.jpg" },
     { name: "sidPage", imageSrc: "/defaultpfp.jpg" },
     { name: "Nathan Wan", imageSrc: "/nathanwan.png" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
