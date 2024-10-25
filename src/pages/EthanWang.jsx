@@ -35,7 +35,7 @@ export default function DemoPage() {
         <div className="w-full h-3/6 flex flex-col items-center mt-4 pt-12">
           {/* Profile Picture */}
           <img
-            src="../ryanpic.jpg" // Placeholder image
+            src="../EthanWangProfile.jpg" // Placeholder image
             alt="Profile Picture"
             className={`w-48 h-48 object-cover ${isHovered ? "scale-110" : "scale-100"} transition-transform duration-300`}
             onMouseEnter={() => setIsHovered(true)}
@@ -44,11 +44,11 @@ export default function DemoPage() {
 
           {/* Member Info */}
           <div className="text-center text-white mt-8">
-            <h2 className="text-4xl font-bold">Ryan Erickson</h2>
-            <h3 className="text-xl mt-2">Technical Director</h3>
+            <h2 className="text-4xl font-bold">Ethan Wang</h2>
+            <h3 className="text-xl mt-2">Team Lead</h3>
             <p className="mt-4 text-gray-400 max-w-md">
-              Computer science student at Purdue University, from Prior Lake Minnesota.
-              2nd year in Hack the Future, previously a member of YWCA Scheduling team.
+              Computer science student at Purdue University, from New Jersey.
+              1st year in Hack the Future.
             </p>
           </div>
           <Link to="/" className="z-10 mt-6 bg-htfgreen text-white font-bold py-2 px-4 rounded transition duration-300 hover:bg-green-700">
@@ -57,13 +57,13 @@ export default function DemoPage() {
 
           {/* Contact Links */}
           <div className="flex mt-8 gap-8 z-10">
-            <a href="https://www.linkedin.com/in/ryanerickson680/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/ethanwang57/" target="_blank" rel="noreferrer">
               <FaLinkedin className="text-white text-4xl hover:animate-pop cursor-pointer" />
             </a>
-            <a href="https://github.com/RyanErickson680" target="_blank" rel="noreferrer">
+            <a href="https://github.com/ethanwang2457" target="_blank" rel="noreferrer">
               <FaGithubSquare className="text-white text-4xl hover:animate-pop cursor-pointer" />
             </a>
-            <a href="https://www.instagram.com/erickson_ryan/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/ethan.w2457/" target="_blank" rel="noreferrer">
               <FaInstagram className="text-white text-4xl hover:animate-pop cursor-pointer" />
             </a>
           </div>
