@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
@@ -8,9 +8,9 @@ export default function Home() {
 
   // Names and images for each profile 
   const profileData = [
-    { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
-    { name: "Ethna Wang", imageSrc: "/EthanWangProfile.jpg" },
-    { name: "Sid Sancheti", imageSrc: "/defaultpfp.jpg" },
+    { name: "Sheehan Dandapat", imageSrc: "/sd2.jpg" },  // Feel free to remove demo page whenever you want
+    { name: "EthanWang", imageSrc: "/EthanWangProfile.jpg" },
+    { name: "sidPage", imageSrc: "/defaultpfp.jpg" },
     { name: "Nathan Wan", imageSrc: "/nathanwan.png" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Michael Li", imageSrc: "/public/Michael_Pic.jpg" },
@@ -18,7 +18,7 @@ export default function Home() {
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
     { name: "Person8", imageSrc: "/defaultpfp.jpg" },
     { name: "Person9", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person10", imageSrc: "/defaultpfp.jpg" }
+    { name: "Ishana D", imageSrc: "/defaultpfp.jpg" }
   ];
 
   const toggleOutline = () => {

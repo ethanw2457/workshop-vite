@@ -2,8 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useParams } from "react-router-dom";
-import DemoPage from './pages/demoPage.jsx'
+import DemoPage from './pages/Sheehan.jsx'
 import MichaelPage from './pages/MichaelPage.jsx';
+import SidPage from './pages/sidPage.jsx'
+import Ishana from './pages/ishana.jsx'
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
@@ -27,14 +29,14 @@ function ProfileRouter() {
   const { name } = useParams();
 
   switch (name) {
-    case "Ryan(Demo)":
+    case "Sheehan Dandapat":
       return <DemoPage />;
 
     // Change <DemoPage /> to your custom profile page, and change the case to your name
     case "Person1":
       return <DemoPage />;
-    case "Ethan Wang":
-      return <EthanWang />;
+    case "sidPage":
+      return <SidPage />;
     case "Nathan Wan":
       return <NathanPage />;
     case "Person4":
@@ -49,8 +51,8 @@ function ProfileRouter() {
         return <DemoPage />;
     case "Person9":
       return <DemoPage />;
-    case "Person10":
-      return <DemoPage />;
+    case "Ishana D":
+      return <Ishana />;
     default:
       return <div>Profile not found</div>;
   }
