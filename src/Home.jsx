@@ -13,7 +13,7 @@ export default function Home() {
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Person3", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person5", imageSrc: "/defaultpfp.jpg" },
+    { name: "Michael Li", imageSrc: "/defaultpfp.jpg" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
     { name: "Person8", imageSrc: "/defaultpfp.jpg" },
