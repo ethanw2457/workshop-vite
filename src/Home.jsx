@@ -4,12 +4,11 @@ import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function Home() {
 
-  const [showOutline, setShowOutline] = useState(false);
 
   // Names and images for each profile 
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
-    { name: "Person1", imageSrc: "/defaultpfp.jpg" },
+    { name: "Ethna Wang", imageSrc: "/defaultpfp.jpg" },
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Person3", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
