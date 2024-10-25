@@ -11,7 +11,7 @@ export default function Home() {
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
     { name: "Ethna Wang", imageSrc: "/EthanWangProfile.jpg" },
     { name: "Sid Sancheti", imageSrc: "/defaultpfp.jpg" },
-    { name: "Nathan Wan", imageSrc: "/defaultpfp.jpg" },
+    { name: "Nathan Wan", imageSrc: "/nathanwan.png" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Michael Li", imageSrc: "/public/Michael_Pic.jpg" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
