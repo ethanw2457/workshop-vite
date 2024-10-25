@@ -44,11 +44,11 @@ export default function DemoPage() {
 
           {/* Member Info */}
           <div className="text-center text-white mt-8">
-            <h2 className="text-4xl font-bold">Ryan Erickson</h2>
-            <h3 className="text-xl mt-2">Technical Director</h3>
+            <h2 className="text-4xl font-bold">Nathan Wan</h2>
+            <h3 className="text-xl mt-2">Developer</h3>
             <p className="mt-4 text-gray-400 max-w-md">
-              Computer science student at Purdue University, from Prior Lake Minnesota.
-              2nd year in Hack the Future, previously a member of YWCA Scheduling team.
+              Computer science student at Purdue University, from Canada.
+              1st year in Hack the Future.
             </p>
           </div>
           <Link to="/" className="z-10 mt-6 bg-htfgreen text-white font-bold py-2 px-4 rounded transition duration-300 hover:bg-green-700">
@@ -57,13 +57,13 @@ export default function DemoPage() {
 
           {/* Contact Links */}
           <div className="flex mt-8 gap-8 z-10">
-            <a href="https://www.linkedin.com/in/ryanerickson680/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/nathan-wan-057811293/" target="_blank" rel="noreferrer">
               <FaLinkedin className="text-white text-4xl hover:animate-pop cursor-pointer" />
             </a>
-            <a href="https://github.com/RyanErickson680" target="_blank" rel="noreferrer">
+            <a href="https://github.com/nathantwan" target="_blank" rel="noreferrer">
               <FaGithubSquare className="text-white text-4xl hover:animate-pop cursor-pointer" />
             </a>
-            <a href="https://www.instagram.com/erickson_ryan/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/nathanwan_23/?hl=en" target="_blank" rel="noreferrer">
               <FaInstagram className="text-white text-4xl hover:animate-pop cursor-pointer" />
             </a>
           </div>
