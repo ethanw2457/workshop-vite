@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useParams } from "react-router-dom";
 import DemoPage from './pages/demoPage.jsx'
+import SidPage from './pages/sidPage.jsx'
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
@@ -30,8 +31,8 @@ function ProfileRouter() {
     // Change <DemoPage /> to your custom profile page, and change the case to your name
     case "Person1":
       return <DemoPage />;
-    case "Person2":
-      return <DemoPage />;
+    case "sidPage":
+      return <SidPage />;
     case "Person3":
       return <DemoPage />;
     case "Person4":

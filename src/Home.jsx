@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
@@ -9,8 +9,8 @@ export default function Home() {
   // Names and images for each profile 
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
-    { name: "Ethna Wang", imageSrc: "/defaultpfp.jpg" },
-    { name: "Sid Sancheti", imageSrc: "/defaultpfp.jpg" },
+    { name: "EthanWang", imageSrc: "/defaultpfp.jpg" },
+    { name: "sidPage", imageSrc: "/defaultpfp.jpg" },
     { name: "Nathan Wan", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Michael Li", imageSrc: "/defaultpfp.jpg" },
