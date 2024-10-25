@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { useParams } from "react-router-dom";
 import DemoPage from './pages/demoPage.jsx'
+import MichaelPage from './pages/MichaelPage.jsx';
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/example' element={<Example />} />
         <Route path='/demo' element={<DemoPage />} />
         <Route path='/profile/:name' element={<ProfileRouter />} />
+
       </Routes>
     </Router>
   </StrictMode>,
