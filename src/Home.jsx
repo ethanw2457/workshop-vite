@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function Home() {
+  const [showOutline, setShowOutline] = useState(false);
 
 
   // Names and images for each profile 
