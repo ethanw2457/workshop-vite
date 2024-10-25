@@ -33,8 +33,8 @@ function ProfileRouter() {
     // Change <DemoPage /> to your custom profile page, and change the case to your name
     case "Person1":
       return <DemoPage />;
-    case "Person2":
-      return <DemoPage />;
+    case "Ethan Wang":
+      return <EthanWang />;
     case "Nathan Wan":
       return <NathanPage />;
     case "Person4":
