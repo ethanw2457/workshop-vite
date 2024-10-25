@@ -10,8 +10,8 @@ export default function Home() {
   const profileData = [
     { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
     { name: "Ethna Wang", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person2", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person3", imageSrc: "/defaultpfp.jpg" },
+    { name: "Sid Sancheti", imageSrc: "/defaultpfp.jpg" },
+    { name: "Nathan Wan", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Michael Li", imageSrc: "/defaultpfp.jpg" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
