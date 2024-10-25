@@ -6,6 +6,7 @@ import DemoPage from './pages/demoPage.jsx'
 import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
+import NathanPage from './pages/NathanPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -32,8 +33,8 @@ function ProfileRouter() {
       return <DemoPage />;
     case "Person2":
       return <DemoPage />;
-    case "Person3":
-      return <DemoPage />;
+    case "Nathan Wan":
+      return <NathanPage />;
     case "Person4":
       return <DemoPage />;
     case "Michael Li":
