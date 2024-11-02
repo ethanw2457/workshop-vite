@@ -12,6 +12,7 @@ import Home from './Home.jsx'
 import Example from './pages/example.jsx';
 import NathanPage from './pages/NathanPage.jsx'
 import Savvy from './pages/savvy.jsx'
+import Apu from './pages/apuroopa.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -57,6 +58,8 @@ function ProfileRouter() {
       return <Ishana />;
     case "Savvy Miller":
       return <Savvy />;
+    case "Apuroopa K." :
+      return <Apu />;
     default:
       return <div>Profile not found</div>;
   }
