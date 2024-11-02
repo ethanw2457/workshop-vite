@@ -16,7 +16,7 @@ export default function Home() {
     { name: "Michael Li", imageSrc: "/public/Michael_Pic.jpg" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person8", imageSrc: "/defaultpfp.jpg" },
+    { name: "Tuan Nguyen", imageSrc: "/Tuan.jpeg" },
     { name: "Apuroopa K.", imageSrc: "/apuroopa.JPG" },
     { name: "Ishana D", imageSrc: "/defaultpfp.jpg" },
     { name: "Savvy Miller", imageSrc: "/IMG_0666.png" }

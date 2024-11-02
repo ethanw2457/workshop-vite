@@ -13,6 +13,7 @@ import Example from './pages/example.jsx';
 import NathanPage from './pages/NathanPage.jsx'
 import Savvy from './pages/savvy.jsx'
 import Apu from './pages/apuroopa.jsx'
+import TuanNg from './pages/TuanNg.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -42,8 +43,8 @@ function ProfileRouter() {
       return <SidPage />;
     case "Nathan Wan":
       return <NathanPage />;
-    case "Person4":
-      return <DemoPage />;
+    case "Tuan Nguyen":
+      return <TuanNg/>;
     case "Michael Li":
       return <MichaelPage />;
     case "Person6":
