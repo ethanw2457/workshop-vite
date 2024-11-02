@@ -11,6 +11,7 @@ import './index.css'
 import Home from './Home.jsx'
 import Example from './pages/example.jsx';
 import NathanPage from './pages/NathanPage.jsx'
+import Savvy from './pages/savvy.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -54,6 +55,8 @@ function ProfileRouter() {
       return <DemoPage />;
     case "Ishana D":
       return <Ishana />;
+    case "Savvy Miller":
+      return <Savvy />;
     default:
       return <div>Profile not found</div>;
   }

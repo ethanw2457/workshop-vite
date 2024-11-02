@@ -18,7 +18,8 @@ export default function Home() {
     { name: "Person7", imageSrc: "/defaultpfp.jpg" },
     { name: "Person8", imageSrc: "/defaultpfp.jpg" },
     { name: "Person9", imageSrc: "/defaultpfp.jpg" },
-    { name: "Ishana D", imageSrc: "/defaultpfp.jpg" }
+    { name: "Ishana D", imageSrc: "/defaultpfp.jpg" },
+    { name: "Savvy Miller", imageSrc: "/IMG_0666.png" }
   ];
 
   const toggleOutline = () => {
